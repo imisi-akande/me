@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
-class App extends Component{
-   render(){
-      return(
-         <div>
-            <h1>Imisi's Portfolio</h1>
-         </div>
-      );
-   }
-}
-export default App;
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx'
+import './index.css'
+
+ReactDOM.render(<App />, document.querySelector("#root"));
