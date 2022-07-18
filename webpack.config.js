@@ -1,16 +1,18 @@
 const path = require('path');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
     resolve: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', 'pdf', '.json', '.css', '.scss'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', 'pdf', '.json', '.css', '.scss', 'png'],
         modules: ['src', 'node_modules'] 
     },
     output: {
-       path: path.join(__dirname, '/bundle'),
-       filename: 'index_bundle.js'
-    },
+        filename: 'index_bundle.js',
+        path: path.resolve(__dirname, 'dist')
+
+     },
     devServer: {
        port: 8001
     },
@@ -18,26 +20,26 @@ module.exports = {
        rules: [
           {
              test: /\.jsx?$/,
-             exclude: /node_modules/,
              loader: 'babel-loader',
-
+             options: {
+                "presets": ["@babel/preset-react"]
+            }
           }, 
+        {
+            test: /\.css$/i,
+            use: ['style-loader', 'css-loader'],
+        },
+        {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+            
+
+          },
           {
             test: /\.pdf$/,
             use: ["file-loader"],
           },
-          {
-          test: /\.css$/,
-        use: [
-          { loader: 'style-loader' },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true
-            }
-          },
-        ],
-    }]
+    ]
     },
     plugins:[
        new HtmlWebpackPlugin({
