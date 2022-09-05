@@ -6,9 +6,9 @@ import {MdFacebook} from 'react-icons/Md'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedln.com" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><FaGithub/></a>
-        <a href="https://facebook.com" target="_blank"><MdFacebook/></a>
+        <a href="https://www.linkedin.com/in/imisioluwa-akande-39030b70/" target="_blank"><BsLinkedin/></a>
+        <a href="https://github.com/imisi-akande" target="_blank"><FaGithub/></a>
+        <a href="https://www.facebook.com/akande.imisioluwaezekiel" target="_blank"><MdFacebook/></a>
     </div>
   )
 }

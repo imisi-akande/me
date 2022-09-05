@@ -12,37 +12,37 @@ const data = [
         id: 1,
         image: IMG1,
         title: "Dashboard for the Visualization of trends of transport in Nigeria",
-        github: "https://github.com"
+        github: "https://github.com/imisi-akande/tfare-dashboard"
     },
     {
         id: 2,
         image: IMG2,
         title: "The design and analysis of COVID-19 DATA with SQL",
-        github: "https://github.com"
+        github: "https://medium.com/@imizezek/the-design-and-analysis-of-covid-19-data-using-sql-part-one-2840e38d36dd"
     },
     {
         id: 3,
         image: IMG3,
-        title: "The analysis of San Francisco and Airbnb Data",
-        github: "https://github.com"
+        title: "The analysis of San Francisco and Austin's Airbnb Data",
+        github: "https://github.com/imisi-akande/DataScience-With-Airbnb"
     },
     {
         id: 4,
         image: IMG4,
         title: "Scraping News stories",
-        github: "https://github.com"
+        github: "https://github.com/imisi-akande/news-collector"
     },
     {
         id: 5,
         image: IMG5,
         title: "Django Restful API PostIT",
-        github: "https://github.com"
+        github: "https://github.com/imisi-akande/postit_site"
     },
     {
         id: 6,
         image: IMG6,
         title: "Food Price Analysis with Pandas",
-        github: "https://github.com"
+        github: "https://medium.com/the-andela-way/pandas-for-food-price-analysis-181f91e38b6b"
     }
 ]
 
