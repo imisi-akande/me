@@ -40,9 +40,9 @@ const about = () => {
                 A bright, talented, ambitious, software developer, Machine Learning enthusiast 
                 and self-motivated data analyst with a strong technical background who possesses 
                 self-discipline and the ability to work with minimum supervision. Offering a solid track record of creating innovative, 
-                customer-centric strategies that translate into long-lasting benefits in terms of service quality and market share. 
-                Proven ability to thrive in fast-paced environments and leverage excellent communication skills to perform effective 
-                sales presentations, develop and maintain positive business relationships, and liaise between various stakeholders
+                customer-centric strategies that translate into long-lasting benefits in terms of service quality. 
+                Proven ability to thrive in fast-paced environments and leverage excellent communication skills to perform efficiently, 
+                develop and maintain positive business relationships, and liaise between various stakeholders
                 to implement optimal solutions and instill a culture of excellence.
                 </p>
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
