@@ -6,12 +6,11 @@ module.exports = {
     entry: './src/index.js',
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', 'pdf', '.json', '.css', '.scss', 'png'],
-        modules: ['src', 'node_modules'] 
+        modules: ['src', 'node_modules']
     },
     output: {
-        filename: 'index_bundle.js',
+        filename: 'index_bundle.[contenthash].js',
         path: path.resolve(__dirname, 'build')
-
      },
     devServer: {
        port: 8001
